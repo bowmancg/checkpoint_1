@@ -1,0 +1,73 @@
+body {
+    font-family: 'Julee', cursive;
+}
+
+.sword-logo {
+    font-size: 40pt;
+}
+
+.intro-card {
+    width: 22rem;
+    height: 45rem;
+}
+
+.bg-image {
+    background-image: url(https://images.unsplash.com/photo-1525711857929-4272fb4a040f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    max-width: 100%;
+    height: 80vh;
+    
+}
+
+#hero {
+    margin-bottom: -200px;
+}
+
+.custom-box {
+    margin-top: 12.5rem;
+    background-color: black;
+    
+}
+
+.middle-card {
+    scale: 1.15;
+}
+
+.first-card {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .custom-box {
+        margin-top: 0;
+    }
+
+    .first-card {
+        display: block;
+    }
+
+    .middle-card {
+        display: none;
+    }
+
+    .hero {
+        margin-bottom: 10rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    footer {
+        color: black;
+    }
+
+    .xs-hidden {
+        display: none;
+    }
+
+    .bg-image {
+        background-image: none;
+    }
+}
