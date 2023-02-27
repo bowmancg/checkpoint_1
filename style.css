@@ -8,7 +8,7 @@ body {
 
 .intro-card {
     width: 22rem;
-    height: 45rem;
+    height: 44rem;
 }
 
 .bg-image {
@@ -24,9 +24,9 @@ body {
 }
 
 .custom-box {
-    /* margin-top: -5.5rem; */
+    margin-top: -5.5rem;
     /*NOTE - had problems with different display sizes */
-    margin-top: 12.5rem;
+    /* margin-top: 12.5rem; */
     background-color: black;
     
 }
@@ -41,13 +41,15 @@ body {
 
 @media screen and (max-width: 600px) {
     .custom-card-2 {
-        /* margin-top: 19rem; */
+        margin-top: 19rem;
         /*NOTE - had problems with different display sizes */
-        margin-top: 6rem;
+        /* margin-top: 6rem; */
     }
 
     .custom-box {
-        margin-top: 0;
+        margin-top: -20px;
+        /*NOTE - had problems with different display sizes */
+        /* margin-top: 0; */
     }
 
     .first-card {
